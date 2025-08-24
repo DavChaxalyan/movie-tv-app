@@ -24,7 +24,7 @@ export default function FeaturedMovie() {
       <div className={styles.overlay}>
         <div className={styles.content}>
           <p className={styles.category}>{currentMovie.Category}</p>
-          <img src={`/assets/title_images/${currentMovie.TitleImage}`} alt="Movie Logo" className={styles.logo} />
+          <img src={currentMovie.TitleImage} alt="Movie Logo" className={styles.logo} />
           <div className={styles.meta}>
             <p>{currentMovie.ReleaseYear}</p>
             <p>{currentMovie.MpaRating}</p>

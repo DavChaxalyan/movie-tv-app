@@ -43,7 +43,7 @@ export default function TrendingCarousel() {
                             title={movie.Title}
                             >
                                 <img
-                                    src={`/assets/images/${movie.CoverImage}`}
+                                    src={movie.CoverImage}
                                     alt={movie.Title}
                                 />
                             </div>

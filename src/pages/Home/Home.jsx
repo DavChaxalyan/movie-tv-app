@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <Sidebar />
-      <div className={styles.mainContent} style={{ backgroundImage: `url(${currentMovie.BackgroundImage})` }}>
+      <div className={styles.mainContent} style={{ backgroundImage: `linear-gradient(90deg, rgba(26, 26, 26, 1) 0%, rgba(138, 138, 138, 0) 100%), url(${currentMovie.BackgroundImage})` }}>
         <FeaturedMovie />
         <TrendingCarousel />
       </div>
