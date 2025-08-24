@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <Sidebar />
-      <div className={styles.mainContent} style={{ backgroundImage: `url(/assets/images/${currentMovie.CoverImage})` }}>
+      <div className={styles.mainContent} style={{ backgroundImage: `url(${currentMovie.BackgroundImage})` }}>
         <FeaturedMovie />
         <TrendingCarousel />
       </div>

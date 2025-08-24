@@ -1,5 +1,5 @@
 import styles from './Sidebar.module.css';
-import avatar from '/assets/profile_img/profile_img.webp';
+import avatar from '/assets/profile_img/avatar.png';
 
 export default function AvatarSection() {
 
