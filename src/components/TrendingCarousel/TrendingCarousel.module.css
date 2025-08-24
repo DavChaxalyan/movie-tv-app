@@ -1,0 +1,37 @@
+.carousel h2 {
+    text-align: left;
+    font: normal normal 300 32px/38px Tajawal;
+    letter-spacing: 0px;
+    color: #F1F1F1;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.videoBg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.swiperSlide {
+    width: unset;
+    height: 295px;
+}
